@@ -7,14 +7,22 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
-
+    <!-- 该权限是用来判断是否有网络连接 -->
+    <uses-permission 
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 该权限用来判断是否开启GPS -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> 
+	<uses-permission android:name="android.permission.INTERNET" /> 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.mangl.robot.MainActivity"
+            android:name="com.mangl.robot.MainActivityCheck"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
