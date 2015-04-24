@@ -24,3 +24,9 @@ proguard/
 
 # Log Files
 *.log
+
+#SVN
+.svn/
+
+#setting
+.settings/

@@ -1,4 +1,4 @@
-package com.mangl.robot.util.json;
+package com.mangl.robot.util.comm.java;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,13 +9,13 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 /**
- * Àà Ãè Êö£º Json²Ù×÷Àà </br> 
- * ´´½¨Ê±¼ä£º 2015-03-04 09:06 </br>
+ * ç±» æ è¿°ï¼š Jsonæ“ä½œç±» </br> 
+ * åˆ›å»ºæ—¶é—´ï¼š 2015-03-04 09:06 </br>
  */
 public class JsonUtil 
 {
 	/**
-	 * ¸ù¾İjson×Ö·û´®µÃµ½Map
+	 * æ ¹æ®jsonå­—ç¬¦ä¸²å¾—åˆ°Map
 	 * 
 	 * @param json
 	 *            {'a':'1','b':'2','c':'3'}
@@ -33,7 +33,7 @@ public class JsonUtil
 		return mp;
 	}
 	/**
-	 * ½« JSONObject ×ª»»³É Map
+	 * å°† JSONObject è½¬æ¢æˆ Map
 	 * 
 	 * @param jsonObj JSONObject
 	 * @return Map
@@ -61,7 +61,7 @@ public class JsonUtil
 		return dataMap;
 	}
 	/**
-	 * ¸ù¾İjson×Ö·û´®µÃµ½List
+	 * æ ¹æ®jsonå­—ç¬¦ä¸²å¾—åˆ°List
 	 * @param json
 	 *            {'row1':{'a':'1','b':'2','c':'3'},'row2':{'a':'1','b':'2','c':'
 	 *            3 ' } }
@@ -85,7 +85,7 @@ public class JsonUtil
 		return ls;
 	}
 	/**
-	 * JSONArray ×ª»»³É List (Ö»ÊÊºÏ JSONArray µÄËùÓĞ³ÉÔ±¾ùÎª  JSONObject µÄÇé¿ö)
+	 * JSONArray è½¬æ¢æˆ List (åªé€‚åˆ JSONArray çš„æ‰€æœ‰æˆå‘˜å‡ä¸º  JSONObject çš„æƒ…å†µ)
 	 * 
 	 * @param jsonArr JSONArray
 	 * @return List
@@ -115,7 +115,7 @@ public class JsonUtil
 		return dataList;
 	}
 	/**
-	 * ¸ù¾İjson×Ö·û´®µÃµ½JSON¶ÔÏó
+	 * æ ¹æ®jsonå­—ç¬¦ä¸²å¾—åˆ°JSONå¯¹è±¡
 	 * 
 	 * @param json  {'a':'1','b':'2','c':'3'}
 	 * @return

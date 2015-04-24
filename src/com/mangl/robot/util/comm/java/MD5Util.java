@@ -1,17 +1,17 @@
-package com.mangl.robot.util.md5;
+package com.mangl.robot.util.comm.java;
 
 import java.security.MessageDigest;
 
 /**
- * Àà Ãè Êö£º MD5²Ù×÷Àà </br> 
- * ´´½¨Ê±¼ä£º 2015-03-04 08:45 </br>
+ * ç±» æ è¿°ï¼š MD5æ“ä½œç±» </br> 
+ * åˆ›å»ºæ—¶é—´ï¼š 2015-03-04 08:45 </br>
  */
 public class MD5Util 
 {
 	/**
-	 * ½«×Ö·û´®½øĞĞMD5¼ÓÃÜ
+	 * å°†å­—ç¬¦ä¸²è¿›è¡ŒMD5åŠ å¯†
 	 * 
-	 * @param pstr ±»¼ÓÃÜµÄ×Ö·û´®
+	 * @param pstr è¢«åŠ å¯†çš„å­—ç¬¦ä¸²
 	 * @return MD5 string
 	 */
 	public static String ToMD5(String pstr)

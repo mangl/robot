@@ -2,12 +2,19 @@
 <resources>
 
     <string name="app_name">Robot</string>
-    <string name="action_settings">Settings</string>
+
+<!--     <string name="copyOnefile">测试复制单个文件</string> -->
+<!--     <string name="copyAllfile">测试复制文件夹下的所有文件</string> -->
+<!--     <string name="deleteAllfile">测试删除文件夹下的所有文件</string> -->
+<!--     <string name="getAllfile">测试获取文件夹下某格式的所有文件列表</string> -->
+    
+<!--     <string name="action_settings">Settings</string> -->
     <string name="hello_world">hello_world</string>
-    <string name="test_internet">进行网络是否连接测试</string>
-    <string name="test_whichnet">判断是哪种网络</string>
-    <string name="test_isGPS">判断是否开启GPS</string>
-    <string name="openSetGPS">打开系统GPS设置界面</string>
-    <string name="openSetInternet">打开系统网络设置界面</string>
+<!--     <string name="test_internet">进行网络是否连接测试</string> -->
+<!--     <string name="test_whichnet">判断是哪种网络</string> -->
+<!--     <string name="test_isGPS">判断是否开启GPS</string> -->
+<!--     <string name="openSetGPS">打开系统GPS设置界面</string> -->
+<!--     <string name="openSetInternet">打开系统网络设置界面</string> -->
+
 
 </resources>
